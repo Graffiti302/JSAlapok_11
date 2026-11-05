@@ -10,5 +10,4 @@ console.log(statuszElemek.length)
 
 console.log(statuszElemek[0].textContent)
 console.log(statuszElemek[1].textContent)
-
 const listaElemek = document.querySelectorAll(".lista-elem")
