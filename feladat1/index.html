@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Alapgyakorlat - Kijelölések</title>
+    
+</head>
+
+<body>
+
+    <!-- 1. Elem (ID alapján) -->
+    <h1 id="focim">Főcím</h1>
+
+    <!-- 2. Elemek (getElementsByClassName-hez) -->
+    <p class="statusz-szoveg">Első státusz üzenet...</p>
+    <p class="statusz-szoveg">Második státusz üzenet...</p>
+
+    <!-- 3. Elemek (querySelectorAll-hoz) -->
+    <ul class="rendszer-lista">
+        <li class="lista-elem">Rendszer verzió: 1.0</li>
+        <li class="lista-elem">Szerver állapot: Inaktív</li>
+    </ul>
+
+    <!-- 4. Űrlapelem -->
+    <input type="text" id="jatekos-nev-input" value="Neo">
+
+    <!-- 5. Gomb -->
+    <button id="indito-gomb" class="btn">Rendszer Indítása</button>
+
+    <!-- Eredmény kijelző -->
+    <div id="eredmeny"></div>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
